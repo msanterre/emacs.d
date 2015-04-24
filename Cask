@@ -15,22 +15,19 @@
 (depends-on "yasnippet")
 
 ;; Modes
-(depends-on "rhtml-mode")
 (depends-on "haml-mode")
 (depends-on "coffee-mode")
 (depends-on "yaml-mode")
 (depends-on "scss-mode")
 (depends-on "sass-mode")
+(depends-on "go-mode")
+(depends-on "dockerfile-mode")
 
 ;; https://github.com/ajc/nginx-mode
 (depends-on "nginx-mode")
-
 (depends-on "apache-mode")
-
 (depends-on "markdown-mode")
-
 (depends-on "handlebars-mode")
-
 (depends-on "rspec-mode")
 
 ;; Themes

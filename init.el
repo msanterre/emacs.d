@@ -1,4 +1,4 @@
-(require 'cask "~/.cask/cask.el")
+(require 'cask "/usr/local/share/emacs/site-lisp/cask.el")
 (cask-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/personal/")
@@ -11,3 +11,5 @@
 (load "hooks.el")
 (load "snippets.el")
 (load "rspec.el")
+
+(load-theme 'zenburn t)

@@ -5,6 +5,8 @@
 (require 'scss-mode)
 (require 'sass-mode)
 (require 'nginx-mode)
+(require 'go-mode)
+(require 'dockerfile-mode)
 
 ;; Auto setup of modes based on extensions
 (add-to-list 'auto-mode-alist '("\\.xhtml$" . rhtml-mode) )
@@ -37,4 +39,7 @@
 
 (add-to-list 'auto-mode-alist '("\/\\.env" . sh-mode) )
 
-(add-to-list 'auto-mode-alist '("/etc/nginx/sites-available/.*" . nginx-mode))
+(add-to-list 'auto-mode-alist '("/etc/nginx/sites-available/.*" . nginx-mode) )
+
+(add-to-list 'auto-mode-alist '("\\.go$" . go-mode) )
+(add-to-list 'auto-mode-alist '("Dockerfile$" . dockerfile-mode) )
