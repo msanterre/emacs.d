@@ -120,7 +120,7 @@
 
 (provide 'configs)
 
-
-
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
+
+(setq require-final-newline 't)

@@ -5,7 +5,6 @@
 (require 'scss-mode)
 (require 'sass-mode)
 (require 'nginx-mode)
-(require 'go-mode)
 (require 'dockerfile-mode)
 
 ;; Auto setup of modes based on extensions

@@ -1,0 +1,69 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/lib/sentry_engine/" . "handlers/")
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/lib/" . "sentry_engine/")
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/" . "lib/")
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/app/" . "models/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/msanterre/.emacs.d/"
+ "/Users/msanterre/.emacs.d/personal/"
+ "/Users/msanterre/projects/Personal/go/src/github.com/wishpond-dev/goverseer/"
+ "/Users/msanterre/projects/Wishpond/pandabot/goverseer/"
+ "/Users/msanterre/projects/Personal/go/src/github.com/wishpond-dev/goverseer/tmp/"
+ "/Users/msanterre/projects/Wishpond/sentry_engine/lib/sentry_engine/handlers/"
+ "/Users/msanterre/projects/Wishpond/sentry_engine/lib/"
+ "/Users/msanterre/projects/Wishpond/sentry_engine/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Cask"
+ "modes.el"
+ "build.sh"
+ "version"
+ "attribute.go"
+ "pixel_router.go"
+ "main.go"
+ "Dockerfile"
+ "api_router.go"
+ "common.go"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/usr/local/Cellar/emacs/24.4/share/info/emacs/" (21595 51581 0 0) "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dir" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "ada-mode.info.gz" "../" "./")
+
+ ("/usr/local/Cellar/emacs/24.4/share/emacs/24.4/etc/" (21595 51600 0 0) "yow.lines" "WHY-FREE" "tutorials/" "TODO" "themes/" "THE-GNU-PROJECT" "TERMS" "srecode/" "spook.lines" "ses-example.ses" "schema/" "rgb.txt" "refcards/" "README" "publicsuffix.txt" "ps-prin1.ps" "ps-prin0.ps" "PROBLEMS" "package-keyring.gpg" "ORG-NEWS" "org/" "ORDERS" "NXML-NEWS" "nxml/" "NEXTSTEP" "NEWS.23" "NEWS.22" "NEWS.21" "NEWS.20" "NEWS.19" "NEWS.18" "NEWS.1-17" "NEWS" "MORE.STUFF" "MH-E-NEWS" "MACHINES" "LINUX-GNU" "JOKES" "images/" "HELLO" "grep.txt" "gnus-tut.txt" "GNUS-NEWS" "gnus/" "GNU" "future-bug" "FTP" "forms/" "ETAGS.README" "ETAGS.EBNF" "ERC-NEWS" "enriched.txt" "emacs.icon" "emacs.desktop" "emacs.appdata.xml" "emacs-buffer.gdb" "edt-user.el" "e/" "DOC" "DISTRIB" "DEVEL.HUMOR" "DEBUG" "COPYING" "CONTRIBUTE" "compilation.txt" "charsets/" "CENSORSHIP" "CALC-NEWS" "AUTHORS" "../" "./")
+
+ ("/Users/msanterre/.emacs.d/personal/" (21823 60081 0 0) "theme.el" "snippets.el" "search.el" "rspec.el" "modes.el" "hooks.el" "helm-projectile.el" "functions.el" "configs.el" "bindings.el" "../" "./")
+
+ ("/Users/msanterre/.emacs.d/" (21827 44456 0 0) "snippets/" "projectile-bookmarks.eld" "personal/" "init.el" "ido.last" "Cask" "auto-save-list/" ".gitignore" ".git/" ".cask/" "../" "./")
+
+ ("/Users/msanterre/projects/Personal/go/src/github.com/wishpond-dev/goverseer/bin/" (21827 2728 0 0) "build" "../" "./")
+
+ ("/Users/msanterre/projects/Personal/go/src/github.com/wishpond-dev/goverseer/" (21827 2396 0 0) "version" "tmp/" "public/" "pixel_router.go" "messaging.go" "message_test.go" "main.go" "examples/" "event.go" "Dockerfile" "common.go" "basic_router.go" "attribute.go" "api_router.go" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/msanterre/projects/Wishpond/pandabot/goverseer/" (21827 1337 0 0) "tmp/" "public/" "pixel_router.go" "messaging.go" "message_test.go" "main.go" "examples/" "event.go" "Dockerfile" "common.go" "basic_router.go" "attribute.go" "api_router.go" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/msanterre/projects/Personal/go/src/github.com/wishpond-dev/goverseer/tmp/" (21826 28714 0 0) "runner-build" "event_example.json" "attributes_example.json" "../" "./")
+
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/lib/sentry_engine/handlers/" (21822 52167 0 0) "workflow_event.rb" "platform.rb" "participation.rb" "ledger.rb" "email.rb" "attribute.rb" "action_failure.rb" "../" "./")
+
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/lib/sentry_engine/" (21725 15794 0 0) "workers/" "version.rb" "utilities/" "tracker.rb" "safety.rb" "logger.rb" "jobs/" "handlers/" "engine.rb" "configuration.rb" "api/" "../" "./")
+
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/lib/" (21725 15037 0 0) "sentry_engine.rb" "sentry_engine/" "../" "./")
+
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/" (21822 50782 0 0) "tmp/" "spec/" "sentry_engine.gemspec" "README.md" "Rakefile" "LICENSE.txt" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "config/" "circle.yml" "app/" ".ruby-version" ".rspec" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/app/models/" (21723 55963 0 0) "user_tracker.rb" "../" "./")
+
+ ("/Users/msanterre/projects/Wishpond/sentry_engine/app/" (21723 55963 0 0) "models/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
