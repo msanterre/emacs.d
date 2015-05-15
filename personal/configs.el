@@ -65,9 +65,12 @@
 
 ;; Set default tab width
 (setq-default tab-width 2)
-
 (setq nginx-indent-level 2)
-
+(setq css-indent-level 2)
+(setq css-indent-offset 2)
+(setq scss-indent-level 2)
+(setq ruby-indent-level 2)
+(setq js-indent-level 2)
 
 ;; highlight the current line
 (global-hl-line-mode +1)
@@ -77,14 +80,16 @@
 (require 'diminish)
 (diminish 'projectile-mode "Prjl")
 
-
+;; Fuck off CSS mode
+(add-hook 'css-mode-hook
+          (lambda ()
+            (linum-mode 1)))
 ;; mode line settings
 (line-number-mode t)
 (column-number-mode t)
 
 
 ;; Smaller fringe (left and right side gutters)
-
 (if (fboundp 'fringe-mode)
     (fringe-mode 4))
 
@@ -124,3 +129,6 @@
   (exec-path-from-shell-initialize))
 
 (setq require-final-newline 't)
+(setq browse-url-browser-function 'browse-url-generic
+           browse-url-generic-program "epiphany"
+           browse-url-generic-args '("--new-tab"))

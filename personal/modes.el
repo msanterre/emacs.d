@@ -16,6 +16,7 @@
 (add-to-list 'auto-mode-alist '("\\.html\\.erb$" . rhtml-mode) )
 
 (add-to-list 'auto-mode-alist '("\\.haml$" . haml-mode) )
+(add-to-list 'auto-mode-alist '("\\.hamlc$" . haml-mode) )
 
 (add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode) )
 (add-to-list 'auto-mode-alist '("\\.sass$" . sass-mode) )

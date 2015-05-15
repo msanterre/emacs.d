@@ -1,11 +1,13 @@
 ;; Self
 (source melpa)
+(source gnu)
 (depends-on "cask")
 
 ;; Project
 (depends-on "projectile")
 (depends-on "ag")
 (depends-on "grizzl")
+(depends-on "flycheck-cask")
 
 ;; interactive buffers
 (depends-on "flx")
@@ -14,6 +16,7 @@
 (depends-on "yasnippet")
 
 ;; Modes
+(depends-on "rhtml-mode")
 (depends-on "haml-mode")
 (depends-on "coffee-mode")
 (depends-on "yaml-mode")
@@ -25,7 +28,9 @@
 (depends-on "apache-mode")
 (depends-on "markdown-mode")
 (depends-on "handlebars-mode")
-(depends-on "rspec-mode")
+(depends-on "elixir-mode")
+(depends-on "js2-mode")
+(depends-on "jsx-mode")
 
 ;; Themes
 (depends-on "zenburn-theme")
@@ -42,7 +47,7 @@
 ;; Others
 (depends-on "diminish")
 (depends-on "ag")
-
+(depends-on "alchemist")
 (depends-on "exec-path-from-shell")
 
 ; @todo https://github.com/magnars/multiple-cursors.el
