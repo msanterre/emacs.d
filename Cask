@@ -31,9 +31,11 @@
 (depends-on "elixir-mode")
 (depends-on "js2-mode")
 (depends-on "jsx-mode")
+(depends-on "rust-mode")
 
 ;; Themes
 (depends-on "zenburn-theme")
+(depends-on "darcula-theme")
 
 ;; Helm
 (depends-on "helm-swoop")
