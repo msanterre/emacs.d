@@ -32,6 +32,7 @@
 (depends-on "js2-mode")
 (depends-on "jsx-mode")
 (depends-on "rust-mode")
+(depends-on "web-mode")
 
 ;; Themes
 (depends-on "zenburn-theme")
@@ -50,6 +51,7 @@
 (depends-on "diminish")
 (depends-on "ag")
 (depends-on "alchemist")
+(depends-on "magit")
 (depends-on "exec-path-from-shell")
 
 ; @todo https://github.com/magnars/multiple-cursors.el
