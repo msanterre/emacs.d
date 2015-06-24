@@ -48,6 +48,7 @@
 (depends-on "helm-open-github")
 
 ;; Others
+(depends-on "multiple-cursors")
 (depends-on "diminish")
 (depends-on "ag")
 (depends-on "alchemist")

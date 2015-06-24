@@ -1,4 +1,4 @@
-(load-theme 'darcula t)
+(load-theme 'zenburn t)
 
 ;; Set default font size to 16pt.
 (set-face-attribute 'default nil :height 140)

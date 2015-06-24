@@ -32,6 +32,12 @@
 (global-set-key (kbd "<right>") 'nil)
 (global-set-key (kbd "<down>") 'nil)
 
+;; Multiple cursors
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "s-d") 'mc/mark-next-like-this)
+(global-set-key (kbd "s-D") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c s-d") 'mc/mark-all-like-this)
+
 ;; C-x C-r => prelude style file rename
 (global-set-key (kbd "C-x C-r") 'vince-rename-file-and-buffer)
 
