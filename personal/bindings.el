@@ -3,6 +3,8 @@
 (define-key (current-global-map) (kbd "C-c C-k") 'comment-or-uncomment-region-or-line)
 (define-key coffee-mode-map (kbd "C-c C-k") 'comment-or-uncomment-region-or-line)
 
+(global-set-key (kbd "C-x g") 'magit-status)
+
 ;; @todo When opening a new window, ensure that the new window gets focus.
 (global-set-key (kbd "C-x |") 'split-window-horizontally)
 (global-set-key (kbd "C-x -") 'split-window-vertically)

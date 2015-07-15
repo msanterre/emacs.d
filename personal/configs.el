@@ -135,5 +135,5 @@
 
 (setq require-final-newline 't)
 (setq browse-url-browser-function 'browse-url-generic
-           browse-url-generic-program "epiphany"
+           browse-url-generic-program "chrome"
            browse-url-generic-args '("--new-tab"))

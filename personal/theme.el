@@ -2,7 +2,7 @@
 
 ;; Set default font size to 16pt.
 (set-face-attribute 'default nil :height 140)
-
+(set-face-attribute 'default nil :font "Inconsolate-dz")
 ;; Custom mode line colors that helps show which buffer is active
 ;(set-face-attribute 'mode-line nil
 ;                :foreground "#2e3330" :background "#88b090"

@@ -16,6 +16,7 @@
 (depends-on "yasnippet")
 
 ;; Modes
+(depends-on "jade-mode")
 (depends-on "rhtml-mode")
 (depends-on "haml-mode")
 (depends-on "coffee-mode")
@@ -33,6 +34,8 @@
 (depends-on "jsx-mode")
 (depends-on "rust-mode")
 (depends-on "web-mode")
+(depends-on "systemd")
+
 
 ;; Themes
 (depends-on "zenburn-theme")
