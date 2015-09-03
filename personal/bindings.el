@@ -27,6 +27,7 @@
 (global-set-key (kbd "s-t") 'projectile-find-file)
 (global-set-key (kbd "s-p") 'projectile-switch-project)
 (global-set-key (kbd "s-f") 'projectile-ag)
+(global-set-key (kbd "s-b") 'projectile-switch-to-buffer)
 
 ;; guru-mode
 (global-set-key (kbd "<up>") 'nil)
@@ -39,6 +40,13 @@
 (global-set-key (kbd "s-d") 'mc/mark-next-like-this)
 (global-set-key (kbd "s-D") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c s-d") 'mc/mark-all-like-this)
+
+;; Project explorer
+(global-set-key (kbd "s-j") 'project-explorer-open)
+
+;; tabbar
+(global-set-key (kbd "s-[") 'previous-buffer)
+(global-set-key (kbd "s-]") 'next-buffer)
 
 ;; C-x C-r => prelude style file rename
 (global-set-key (kbd "C-x C-r") 'vince-rename-file-and-buffer)

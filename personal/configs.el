@@ -1,3 +1,4 @@
+(setq web-mode-indent-style 2)
 ;; no startup msg
 (setq inhibit-startup-message t)
 
@@ -37,7 +38,6 @@
 (setq projectile-indexing-method 'alien)
 (setq projectile-enable-caching t)
 (setq projectile-completion-system 'grizzl)
-
 
 ;; Strip trailing whitespace before saving files.
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
@@ -137,3 +137,12 @@
 (setq browse-url-browser-function 'browse-url-generic
            browse-url-generic-program "chrome"
            browse-url-generic-args '("--new-tab"))
+
+(setq jsx-indent-level 2)
+
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories
+             "~/.emacs.d/.cask/24.5.1/elpa/auto-complete-20150618.1949/dict")
+(ac-config-default)
+(setq ac-ignore-case nil)
+(add-to-list 'ac-modes 'ruby-mode)

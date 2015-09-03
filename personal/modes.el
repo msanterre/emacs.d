@@ -33,11 +33,11 @@
 
 (add-to-list 'auto-mode-alist '("\\.yml\\.?" . yaml-mode) )
 
-(add-to-list 'auto-mode-alist '("\\.rb$" . ruby-mode) )
-(add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode) )
-(add-to-list 'auto-mode-alist '("Rakefile$" . ruby-mode) )
-(add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode) )
-(add-to-list 'auto-mode-alist '("\\.thor$" . ruby-mode) )
+(add-to-list 'auto-mode-alist '("\\.rb$" . enh-ruby-mode) )
+(add-to-list 'auto-mode-alist '("Gemfile$" . enh-ruby-mode) )
+(add-to-list 'auto-mode-alist '("Rakefile$" . enh-ruby-mode) )
+(add-to-list 'auto-mode-alist '("\\.rake$" . enh-ruby-mode) )
+(add-to-list 'auto-mode-alist '("\\.thor$" . enh-ruby-mode) )
 
 (add-to-list 'auto-mode-alist '("\/\\.env" . sh-mode) )
 

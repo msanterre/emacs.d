@@ -8,6 +8,7 @@
 (depends-on "ag")
 (depends-on "grizzl")
 (depends-on "flycheck-cask")
+(depends-on "project-explorer")
 
 ;; interactive buffers
 (depends-on "flx")
@@ -16,6 +17,7 @@
 (depends-on "yasnippet")
 
 ;; Modes
+(depends-on "enh-ruby-mode")
 (depends-on "jade-mode")
 (depends-on "rhtml-mode")
 (depends-on "haml-mode")
@@ -51,11 +53,14 @@
 (depends-on "helm-open-github")
 
 ;; Others
+(depends-on "auto-complete")
+(depends-on "inf-ruby")
 (depends-on "multiple-cursors")
 (depends-on "diminish")
 (depends-on "ag")
 (depends-on "alchemist")
 (depends-on "magit")
 (depends-on "exec-path-from-shell")
+(depends-on "tabbar")
 
 ; @todo https://github.com/magnars/multiple-cursors.el
