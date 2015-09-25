@@ -44,10 +44,11 @@
 ;; Project explorer
 (global-set-key (kbd "s-j") 'project-explorer-open)
 
-;; tabbar
-(global-set-key (kbd "s-[") 'previous-buffer)
-(global-set-key (kbd "s-]") 'next-buffer)
-
+;; Windows
+(global-set-key (kbd "s-[") 'previous-multiframe-window)
+(global-set-key (kbd "s-]") 'other-window)
+(global-set-key (kbd "s-{") 'previous-buffer)
+(global-set-key (kbd "s-}") 'next-buffer)
 ;; C-x C-r => prelude style file rename
 (global-set-key (kbd "C-x C-r") 'vince-rename-file-and-buffer)
 

@@ -1,4 +1,6 @@
-(setq web-mode-indent-style 2)
+(eval-after-load 'rspec-mode
+  '(rspec-install-snippets))
+
 ;; no startup msg
 (setq inhibit-startup-message t)
 
@@ -71,6 +73,8 @@
 (setq scss-indent-level 2)
 (setq ruby-indent-level 2)
 (setq js-indent-level 2)
+(setq web-mode-indent-style 2)
+
 ;; highlight the current line
 (global-hl-line-mode +1)
 
@@ -146,3 +150,11 @@
 (ac-config-default)
 (setq ac-ignore-case nil)
 (add-to-list 'ac-modes 'ruby-mode)
+
+;; For rspec-mode and zsh/rvm
+(defadvice rspec-compile (around rspec-compile-around)
+  "Use BASH shell for running the specs because of ZSH issues."
+  (let ((shell-file-name "/bin/bash"))
+    ad-do-it))
+
+(ad-activate 'rspec-compile)
