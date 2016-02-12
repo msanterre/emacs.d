@@ -37,6 +37,7 @@
 (depends-on "rust-mode")
 (depends-on "web-mode")
 (depends-on "systemd")
+(depends-on "ess")
 
 
 ;; Themes
@@ -62,5 +63,6 @@
 (depends-on "magit")
 (depends-on "exec-path-from-shell")
 (depends-on "tabbar")
+(depends-on "expand-region")
 
 ; @todo https://github.com/magnars/multiple-cursors.el

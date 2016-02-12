@@ -9,6 +9,10 @@
 (global-set-key (kbd "C-x |") 'split-window-horizontally)
 (global-set-key (kbd "C-x -") 'split-window-vertically)
 
+;; For easy change between web-mode and js2 (JSX)
+(global-set-key (kbd "C-c j") 'web-mode)
+(global-set-key (kbd "C-c u") 'js2-mode)
+
 (global-set-key [(control return)] 'vince-next-line)
 (global-set-key (kbd "<s-return>") 'vince-next-line)
 
@@ -54,3 +58,9 @@
 
 ;; C-s C-d => goes to next instance of word under cursor. Use C-s to repeat.
 (define-key isearch-mode-map (kbd "C-d") 'isearch-yank-symbol)
+
+(eval-after-load 'alchemist
+  '(define-key alchemist-mode-map (kbd "s-r") 'alchemist-eval-buffer))
+
+(global-set-key (kbd "C-=") 'er/expand-region)
+(global-set-key (kbd "C--") 'er/contract-region)
