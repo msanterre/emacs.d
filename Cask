@@ -21,23 +21,16 @@
 (depends-on "jade-mode")
 (depends-on "rhtml-mode")
 (depends-on "haml-mode")
-(depends-on "coffee-mode")
 (depends-on "yaml-mode")
 (depends-on "scss-mode")
-(depends-on "sass-mode")
 (depends-on "go-mode")
 (depends-on "dockerfile-mode")
 (depends-on "nginx-mode")
-(depends-on "apache-mode")
 (depends-on "markdown-mode")
-(depends-on "handlebars-mode")
 (depends-on "elixir-mode")
 (depends-on "js2-mode")
-(depends-on "jsx-mode")
-(depends-on "rust-mode")
 (depends-on "web-mode")
 (depends-on "systemd")
-(depends-on "ess")
 
 
 ;; Themes
@@ -64,5 +57,3 @@
 (depends-on "exec-path-from-shell")
 (depends-on "tabbar")
 (depends-on "expand-region")
-
-; @todo https://github.com/magnars/multiple-cursors.el

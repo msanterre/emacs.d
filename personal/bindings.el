@@ -1,7 +1,6 @@
 ;; Fix "C-c C-k" to work for sass-mode
 (global-set-key (kbd "C-c C-k") 'comment-or-uncomment-region-or-line)
 (define-key (current-global-map) (kbd "C-c C-k") 'comment-or-uncomment-region-or-line)
-(define-key coffee-mode-map (kbd "C-c C-k") 'comment-or-uncomment-region-or-line)
 
 (global-set-key (kbd "C-x g") 'magit-status)
 

@@ -6,6 +6,7 @@
         coffee-dedent-line-backspace
         haml-electric-backspace
         yaml-electric-backspace
+        yas-expand
         ))
 
 (setq mc/cmds-to-run-once

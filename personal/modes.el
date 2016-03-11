@@ -1,9 +1,7 @@
 (require 'rhtml-mode)
 (require 'haml-mode)
-(require 'coffee-mode)
 (require 'yaml-mode)
 (require 'scss-mode)
-(require 'sass-mode)
 (require 'nginx-mode)
 (require 'dockerfile-mode)
 
@@ -16,7 +14,6 @@
 (add-to-list 'auto-mode-alist '("\\.html\\.erb$" . rhtml-mode) )
 
 (add-to-list 'auto-mode-alist '("\\.haml$" . haml-mode) )
-(add-to-list 'auto-mode-alist '("\\.hamlc$" . haml-mode) )
 
 (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode) )
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode) )
@@ -25,10 +22,6 @@
 (add-to-list 'auto-mode-alist '("\\.sass$" . sass-mode) )
 (add-to-list 'auto-mode-alist '("\\.styl$" . scss-mode) )
 (add-to-list 'auto-mode-alist '("\\.less$" . scss-mode) )
-
-(add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode) )
-(add-to-list 'auto-mode-alist '("\\.coffee\\.erb$" . coffee-mode) )
-(add-to-list 'auto-mode-alist '("Cakefile" . coffee-mode) )
 
 (add-to-list 'auto-mode-alist '("\\.md$" . markdown-mode) )
 
