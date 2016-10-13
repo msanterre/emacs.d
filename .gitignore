@@ -1,0 +1,9 @@
+elpa/
+auto-save-list/
+.DS_Store
+*~
+.cask/
+projectile-bookmarks.eld
+projectile.cache
+ac-comphist.dat
+ido.last
