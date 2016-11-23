@@ -57,3 +57,4 @@
 (depends-on "exec-path-from-shell")
 (depends-on "tabbar")
 (depends-on "expand-region")
+(depends-on "go-autocomplete")
