@@ -15,7 +15,7 @@
 
 ;; Enable ido with a config similar to prelude
 (require 'ido)
-(require 'ido-ubiquitous)
+(require 'ido-completing-read+)
 (require 'flx-ido)
 (setq ido-enable-prefix nil
       ido-enable-flex-matching t
@@ -74,6 +74,7 @@
 (setq ruby-indent-level 2)
 (setq js-indent-level 2)
 (setq web-mode-indent-style 2)
+(setq js2-strict-missing-semi-warning nil)
 
 ;; highlight the current line
 (global-hl-line-mode +1)
@@ -158,3 +159,37 @@
     ad-do-it))
 
 (ad-activate 'rspec-compile)
+
+(defun set-exec-path-from-shell-PATH ()
+  (let ((path-from-shell (replace-regexp-in-string
+                          "[ \t\n]*$"
+                          ""
+                          (shell-command-to-string "$SHELL --login -i -c 'echo $PATH'"))))
+    (setenv "PATH" path-from-shell)
+    (setq eshell-path-env path-from-shell) ; for eshell users
+    (setq exec-path (split-string path-from-shell path-separator))))
+
+(when window-system (set-exec-path-from-shell-PATH))
+
+;; Go settings
+
+(defun my-go-mode-hook ()
+  ; Call Gofmt before saving
+  (add-hook 'before-save-hook 'gofmt-before-save)
+  ; Godef jump key binding
+  (local-set-key (kbd "M-.") 'godef-jump)
+  (local-set-key (kbd "M-*") 'pop-tag-mark)
+  )
+(add-hook 'go-mode-hook 'my-go-mode-hook)
+
+(defun auto-complete-for-go ()
+  (auto-complete-mode 1))
+(add-hook 'go-mode-hook 'auto-complete-for-go)
+
+(with-eval-after-load 'go-mode
+   (require 'go-autocomplete))
+
+
+;; Javascript
+(add-hook 'js2-mode-hook 'prettier-js-mode)
+(add-hook 'web-mode-hook 'prettier-js-mode)

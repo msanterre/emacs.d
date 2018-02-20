@@ -20,6 +20,10 @@
 (global-set-key (kbd "s-w") 'kill-this-buffer)
 (global-set-key (kbd "s-s") 'save-buffer)
 
+;; For linux
+(global-set-key (kbd "C-x w") 'kill-this-buffer)
+(global-set-key (kbd "M-s") 'save-buffer)
+
 (global-set-key [(control tab)] 'other-window)
 (global-set-key [(control shift tab)] 'previous-multiframe-window)
 (global-set-key [(meta tab)] 'other-window)
@@ -52,6 +56,11 @@
 (global-set-key (kbd "s-]") 'other-window)
 (global-set-key (kbd "s-{") 'previous-buffer)
 (global-set-key (kbd "s-}") 'next-buffer)
+
+;; windows-linux
+(global-set-key (kbd "M-[") 'previous-multiframe-window)
+(global-set-key (kbd "M-]") 'other-window)
+
 ;; C-x C-r => prelude style file rename
 (global-set-key (kbd "C-x C-r") 'vince-rename-file-and-buffer)
 

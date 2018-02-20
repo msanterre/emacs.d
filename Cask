@@ -9,11 +9,11 @@
 (depends-on "grizzl")
 (depends-on "flycheck-cask")
 (depends-on "project-explorer")
+(depends-on "ido-completing-read+")
 
 ;; interactive buffers
 (depends-on "flx")
 (depends-on "flx-ido")
-(depends-on "ido-ubiquitous")
 (depends-on "yasnippet")
 
 ;; Modes
@@ -57,3 +57,5 @@
 (depends-on "exec-path-from-shell")
 (depends-on "tabbar")
 (depends-on "expand-region")
+(depends-on "go-autocomplete")
+(depends-on "prettier-js")

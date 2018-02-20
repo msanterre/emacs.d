@@ -1,4 +1,4 @@
-(require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
+(require 'cask "$HOME/.cask/cask.el")
 (cask-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/personal/")
@@ -11,8 +11,6 @@
 (load "snippets.el")
 (load "theme.el")
 (load "editorconfig")
-
-(require 'ess-site)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
