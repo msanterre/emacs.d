@@ -45,6 +45,11 @@
 (depends-on "helm-pydoc")
 (depends-on "helm-perldoc")
 (depends-on "helm-open-github")
+(depends-on "graphql-mode")
+
+;; Segment
+(depends-on "terraform-mode")
+(depends-on "ensime")
 
 ;; Others
 (depends-on "auto-complete")
@@ -59,3 +64,4 @@
 (depends-on "expand-region")
 (depends-on "go-autocomplete")
 (depends-on "prettier-js")
+(depends-on "import-js")

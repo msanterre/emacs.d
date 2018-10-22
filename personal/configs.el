@@ -193,3 +193,7 @@
 ;; Javascript
 (add-hook 'js2-mode-hook 'prettier-js-mode)
 (add-hook 'web-mode-hook 'prettier-js-mode)
+
+(setq prettier-js-args '(
+  "--no-semi" "true"
+))
